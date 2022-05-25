@@ -26,6 +26,7 @@ Image format used: QCIF 320 x 240, RGB565/555
 
 Picture below presents connation schema
 ![obraz](https://user-images.githubusercontent.com/36985129/170355686-3900f968-b6dc-45db-be5a-863e31acd4b3.png)
+
 Pin functions:
 - PB6, PB7, PB3, PB10 – first to are responsible for I2C1 (PB6 – SCL, PB7 - SDA) to configure camera 1, second pair for camera 2
 - PB3 i PB5 – VSYNC signals receivers, they generate interrupts for falling slope
@@ -50,12 +51,15 @@ Data is captured only in case of high voltage for HREF and low voltage for VSYNC
 # How it looks
 
 ![obraz](https://user-images.githubusercontent.com/36985129/170358425-6ef4d6b8-64b6-4647-b011-0a662e7e5d4c.png)
+
 The circuit put together
 
 ![obraz](https://user-images.githubusercontent.com/36985129/170358536-e9570e5a-29b2-4858-b2e7-0184751b8a23.png)
-Photo for one camere - computer monitor
+
+Photo for one camera - computer monitor
 
 ![obraz](https://user-images.githubusercontent.com/36985129/170358848-3145b04e-d875-4fc8-8094-6e6fff1970c7.png)
+
 Photos for two cameras - same monitor from different perspectives
 
 **NOTE**: cameras are very sensitive when it comes to image sharpness configuration (it has to be done manually and destabilizes quickly)
